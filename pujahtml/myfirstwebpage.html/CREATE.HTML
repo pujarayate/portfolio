@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css">
+        .mdiv{
+            height: 100vh;
+            width=100%;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: fixed;
+            top: 0px;
+            left: 0px;
+        }
+        .lgnfrm
+        {
+            width:200px;
+            height:200px;
+            margin:15% 35%;
+
+        }
+        input
+        {width:95%;
+            margin: top 10px;height:20px;
+            background-color: transparent;
+            border: none;
+            border-bottom: 2px solid whiter;
+            color:white;
+            text-align:center;
+    }
+    
+    </style>
+</head>
+<body>
+    <div class="'MDIV">
+        <div class="LGNFOR" align="center">
+            <form autocomplete="off">
+                <h2 class="head">LOGIN</h2>
+                <INPUT type="text" name="username" placeholder="username" class="ipl">
+                    <input type="password" name="psw" placeholder="password" style="margin-bottom: 10px;" class="ipl">
+                    <span><a href="#">forgot password?</a></span>
+                    <input type="button" name="lgn" value="login" onclick=validate>
+                   <span><a href="#">create account</a></span>
+                    
+            </form>
+        </div>
+    </div>
+    <script type="text/javascript">
+        let usr1="something";
+        let pass="something123";
+        function validate(){
+            let usr2=document.getElementById("usr").value;
+            let pass2=document.getElementById("pass").value;
+            if((usr1===usr2)&&(pass===pass2))
+            {
+                open('HomePage.html');
+            }
+            else{
+
+                alert("WRONG CREDENTIALS")
+            }
+        }
+</script>
+    
+</body>
+</html>

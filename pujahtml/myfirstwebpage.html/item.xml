@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<iteminfo>
+<Item>
+<ItemName> mouse. </ItemName>
+<ItemPrice> ……300………….</ItemPrice>
+<Quantity> ………30………… </Quantity>
+</Item>
+<Item>
+<ItemName> …printer…………. </ItemName>
+<ItemPrice> ……1000………….</ItemPrice>
+<Quantity> ………20………… </Quantity>
+</Item>
+<Item>
+<ItemName> ……cpu………. </ItemName>
+<ItemPrice> ……2000………….</ItemPrice>
+<Quantity> ………30………… </Quantity>
+</Item>
+<Item>
+<ItemName> ……monitor………. </ItemName>
+<ItemPrice> ……4000………….</ItemPrice>
+<Quantity> ………50………… </Quantity>
+</Item>
+<Item>
+<ItemName> ……keybord………. </ItemName>
+<ItemPrice> ……1000………….</ItemPrice>
+<Quantity> …………10……… </Quantity>
+</Item>
+<iteminfo>

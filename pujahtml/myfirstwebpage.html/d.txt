@@ -1,0 +1,24 @@
+<html>
+<head>
+<style>
+span
+{
+font-size:25px;
+}
+table
+{
+color:blueviolet; ;
+}
+</style>
+<script type="text/javascript">
+function print()
+{
+var ob=false;
+ob=new XMLHttpRequest();
+ob.open("GET","slip14_Q2.php?");//emailid="+eid);
+ob.send();
+ob.onreadstatechange=function()
+{
+if(ob.readState==4 && ob.status==200)
+{
+document.getElementById("i").innerHTML=ob.respo

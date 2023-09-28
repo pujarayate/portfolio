@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+</head>
+<body>
+<p>click the button to invoke the confirm().</p>
+<button onclick="myfunction()">click here</button>
+<p id="conf"></p>
+<script>
+function myfunction()
+{
+if (window.confirm("do you really want to delete?"))
+{
+document.getelementByid("conf").innerhtml= "you have succesfull
+}
+}
+</script>
+</body>
+</html>
